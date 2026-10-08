@@ -39,8 +39,8 @@ const HUB = {
       version: "v1.2.0",
       size: "817 KB",
       icon: "🖥️",
-      download: "https://github.com/sunnymishraatf-lgtm/My-Agent/releases",
-      source: "https://github.com/sunnymishraatf-lgtm/My-Agent",
+      download: "https://github.com/sunnymishraatf-lgtm/PCRemote/releases/tag/v1.2.0",
+      source: "https://github.com/sunnymishraatf-lgtm/PCRemote",
       featured: true,
     },
     {
