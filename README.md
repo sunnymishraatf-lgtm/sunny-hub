@@ -9,6 +9,7 @@ Sunny Mishra's personal hub — native Android apps, AI projects, and everything
 The whole site renders from [`data.js`](data.js). To add something new, just add an entry:
 
 - **APPS** — `{ name, tagline, description, version, size, icon, download, source, featured }`
+- **GAMES** — `{ name, tagline, description, icon, play, featured }` (play = path like `games/neon-hover/`)
 - **PROJECTS** — `{ name, description, tags, repo, demo }`
 - **LINKS** — `{ label, url, icon }`
 

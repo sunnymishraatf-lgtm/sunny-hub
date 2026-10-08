@@ -34,6 +34,23 @@
     appsGrid.appendChild(card);
   });
 
+  // Games
+  const gamesGrid = document.getElementById("games-grid");
+  (HUB.games || []).forEach((g) => {
+    const card = document.createElement("div");
+    card.className = "card" + (g.featured ? " featured" : "");
+    card.innerHTML = `
+      <div class="app-icon">${esc(g.icon || "🎮")}</div>
+      <h3>${esc(g.name)}</h3>
+      <div class="tagline">${esc(g.tagline || "")}</div>
+      <p class="desc">${esc(g.description)}</p>
+      <div class="meta"><span class="pill">Browser</span></div>
+      <div class="card-actions">
+        ${g.play ? `<a class="btn primary small" href="${esc(g.play)}" target="_blank" rel="noopener">▶ Play now</a>` : ""}
+      </div>`;
+    gamesGrid.appendChild(card);
+  });
+
   // Projects
   const projGrid = document.getElementById("projects-grid");
   HUB.projects.forEach((p) => {

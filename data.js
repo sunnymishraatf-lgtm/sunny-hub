@@ -59,6 +59,21 @@ const HUB = {
     // --- add your next app here ---
   ],
 
+  games: [
+    {
+      name: "Neon Hover",
+      tagline: "Hovercraft through a neon village",
+      description: "A Three.js hovercraft ride through a glowing neon village — " +
+        "orbit the core, boost through rings, and cruise the neon streets. " +
+        "Plays right in your browser.",
+      icon: "🛸",
+      play: "games/neon-hover/",
+      featured: true,
+    },
+    // --- add your next game here ---
+    // { name: "...", tagline: "...", description: "...", icon: "🎮", play: "games/<slug>/" },
+  ],
+
   projects: [
     {
       name: "NEUTRON Web",
