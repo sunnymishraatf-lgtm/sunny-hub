@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunny Mishra — Apps, Projects & More</title>
+<meta name="description" content="Sunny Mishra's personal hub: native Android apps, AI projects, and everything shipped.">
+<meta name="theme-color" content="#CC8066">
+<meta property="og:title" content="Sunny Mishra — Apps, Projects & More">
+<meta property="og:description" content="Sunny Mishra's personal hub: native Android apps, AI projects, and everything shipped.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sunny Mishra — Apps, Projects & More">
+<meta name="twitter:description" content="Sunny Mishra's personal hub: native Android apps, AI projects, and everything shipped.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="#top">☀️ sunny<span>.hub</span></a>
+  <div class="nav-links">
+    <a href="#apps">Apps</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">Personal hub</p>
+    <h1 id="hero-name">Sunny Mishra</h1>
+    <p class="tagline" id="hero-tagline"></p>
+    <p class="bio" id="hero-bio"></p>
+    <div class="hero-cta">
+      <a href="#apps" class="btn primary">📱 Get the apps</a>
+      <a href="https://github.com/sunnymishraatf-lgtm" class="btn ghost" target="_blank" rel="noopener">🐙 GitHub</a>
+    </div>
+  </div>
+  <div class="hero-blob"></div>
+</header>
+
+<main>
+  <section id="apps" class="section">
+    <h2>📱 Apps</h2>
+    <p class="section-sub">Real, installable Android apps. Free forever.</p>
+    <div class="cards" id="apps-grid"></div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <h2>🛠️ Projects</h2>
+    <p class="section-sub">Things I've built and shipped.</p>
+    <div class="cards small" id="projects-grid"></div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>👋 About</h2>
+    <div class="about-card">
+      <p id="about-bio"></p>
+      <div class="stats">
+        <div class="stat"><strong>3</strong><span>Android apps</span></div>
+        <div class="stat"><strong>100%</strong><span>native UI</span></div>
+        <div class="stat"><strong>0</strong><span>trackers</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <h2>📬 Contact</h2>
+    <p class="section-sub">Find me around the internet.</p>
+    <div class="links" id="links-row"></div>
+  </section>
+</main>
+
+<footer>
+  <p id="footer-text"></p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
